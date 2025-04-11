@@ -89,3 +89,22 @@ AI 모델을 통해 민원 부서를 분류하여 할당하고 악성 민원을 
 
 ### 📷 마이페이지 (관리자 대시보드)
 <img src="screenshots/mypage.png" width="500" />
+
+
+---
+
+## 프로젝트 실행하기
+
+### 사전 요구사항 
+- Node.js : v23.5.0
+- npm : 10.9.2
+
+### 의존성 설치
+- npm install
+
+### 개발 서버 실행
+- npm run dev
+
+### 빌드
+- npm run build
+
