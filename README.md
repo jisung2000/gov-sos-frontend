@@ -107,7 +107,3 @@ AI 모델을 통해 민원 부서를 분류하여 할당하고 악성 민원을 
 
 ### 빌드
 - npm run build
-<<<<<<< HEAD
-
-=======
->>>>>>> 98122c8 (Update README with project overview)
