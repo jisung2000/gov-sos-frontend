@@ -1,6 +1,6 @@
 # 공무원 SOS (Frontend) | LLM을 이용한 공무원 업무 Al assistant
 
-> KT Aivle School 부트캠프 팀 프로젝트  
+> KT Aivle School 부트캠프 6기 1반 2조 빅프로젝트  
 > 👉 본 레포는 **프론트엔드 전담 구현 결과물**을 정리한 저장소입니다.  
 > 🔗 관련 링크 | 전체 프로젝트에 대한 저장소 : https://github.com/Drawjustin/KT_BIG_PROJECT
 
