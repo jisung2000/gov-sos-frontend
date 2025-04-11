@@ -93,24 +93,6 @@ export const logoutAsync = createAsyncThunk(
     }
   }
 );
-// export const logoutAsync = createAsyncThunk(
-//   "logoutAsync",
-//   async (_, { getState, rejectWithValue }) => {
-//     try {
-//       const { userEmail } = getState().login;
-//       const { accessToken } = JSON.parse(getCookie("member"));
-//       const response = await logoutPost(userEmail, accessToken);
-//       if (response.status === "success") {
-//         removeCookie("member");
-//         return response;
-//       }
-//       return rejectWithValue(response.message || "로그아웃 실패");
-//     } catch (error) {
-//       console.log("logout fail",error)
-//       return rejectWithValue("로그아웃 중 오류가 발생했습니다.");
-//     }
-//   }
-// );
 const loginSlice = createSlice({
   name: "loginSlice",
   initialState: checkInitialLoginStatus(), // 초기 상태 동적 설정

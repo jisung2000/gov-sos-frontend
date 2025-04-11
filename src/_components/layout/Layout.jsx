@@ -1,4 +1,3 @@
-// components/layout/Layout.jsx\
 import PropTypes from 'prop-types';
 import styles from './Layout.module.css';
 

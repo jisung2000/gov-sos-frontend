@@ -31,13 +31,9 @@ import { mypageApi } from "../../api";
 const ComplaintRatioChart = () => {
   // 차트 데이터와 로딩 상태 관리
   const [data, setData] = useState([]);
-  // const [isLoading, setIsLoading] = useState(true);
 
   // 차트에 사용될 색상 팔레트 정의
-  // const COLORS = ["#82ca9d", "#8884d8"];
   const COLORS = ["#F44336", "#2b6cb0"]; // 악성 민원: 빨강, 기타 민원: 초록
-
-  // const COLORS = ['#47597E', '#7FB5B5', '#FFE5B4', '#B4D4FF'];
 
   // 데이터 fetch 함수
   useEffect(() => {
